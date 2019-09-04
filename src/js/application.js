@@ -35,7 +35,7 @@ function openRegisterModal(){
         $('#loginModal').modal('show');    
     }, 230);
     
-}
+};
 
 function loginAjax(){
     /*   Remove this comments when moving to server
@@ -59,6 +59,6 @@ function shakeModal(){
              setTimeout( function(){ 
                 $('#loginModal .modal-dialog').removeClass('shake'); 
     }, 1000 ); 
-}
+};
 
    
