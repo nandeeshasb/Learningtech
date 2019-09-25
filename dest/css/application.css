@@ -1,0 +1,69 @@
+* {
+	margin:0;
+	padding:0;
+}
+ul,li {
+	list-style-type: none;
+}
+a, a:hover, a:active, a:focus, a:visited {
+  text-decoration: none; 
+  color: #fff;
+  font-weight: bolder;
+}
+a:hover {
+	color:#fff;
+}
+.logo {
+	background-image: url("../img/techademy.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 240px;
+	height: 50px;
+	padding-left: 10px;
+	z-index: 0;
+	color: transparent;
+	font-weight: 30px;
+}
+#main-nav {
+	background-color: #ee36f7;
+	padding-top: 20px;
+}
+.hamgurger {
+	float: right;
+	font-size: 30px;
+	padding-right: 10px;
+	margin-top: -51px;
+	color: #fff;
+}
+.nav-manu {
+	display: none;
+	z-index: 1;
+	padding-left: 10px;
+	line-height: 1.5em;
+	font-size: 30px;
+
+}
+.nav-manu a {
+	color: #00FFFF;
+	text-transform: uppercase;
+}
+
+@media screen and (min-device-width: 769px) {
+	.nav-manu {
+		display: flex;
+		flex-direction: row;
+		float: right;
+		margin-top: -52px;
+		margin-right: 10px;
+		font-size: 22px;
+	}
+	.nav-manu a {
+		padding-right: 15px;
+		border-bottom: 3px solid #00FFFF;
+		color: #00FFFF;
+		padding-bottom: 20px;
+	}
+	.hamgurger {
+		display: none;
+	}
+}
