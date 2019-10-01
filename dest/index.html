@@ -13,43 +13,40 @@
 <body>
 	<!--start heading page-->
 	<header id="main-nav">
-		<nav >		
+		<nav>		
 				<div class="logo"><h4>Techademy</h4></div>
 				<span class="fa fa-bars hamgurger"></span>
 				<ul class="nav-manu">
-					<li><a href="#" class="smoothScroll">Home</a></li>
+					<li><a href="about.html" class="smoothScroll">Home</a></li>
 					<li><a href="#" class="smoothScroll">About US</a></li>
 					<li><a href="#" class="smoothScroll">Mentoship</a></li>
 					<li><a href="#" class="smoothScroll">Contact Us</a></li>
-					<li><a href="#" class="smoothScroll">Join AS Mentor</a></li>
+					
 				</ul>		
 		</nav>
-	</header>
+
   	<!--end heading page-->
   	<!--- start content pages ------------>
-  	<section id="section1">
-	  	<div class="container">
+ 
+	  	<div class="container mt-4">
 	  		<div class="row">
 	  			<div class="col-12 col-md-6 offset-md-1 tech-mentor">
 	  				<h1>Techademy Mentorship</h1>
 	  				<p>Are you looking to gain 1-on-1 advice, mentorship or guidance on your company culture, customer service, or human resource journey? We have  a seasoned group  of professionals who are ready and equipped to help you.</p>
 	  			</div>
-	  			<div class="col-12 col-md-5">
-	  				<div id="login-form">
-	  					<!--<div class="head-login">
-	  						<span>Login</span>
-	  					</div>-->
+	  			<div class="col-12 col-md-5 mt-4 mb-4">
+	  				<div id="login-form">	  					
 	  					<form>
-	  						<div class="form-group head-login">							    
+	  						<div class="form-group head-login pt-4">							    
 							    <h4>Login</h4>
 							</div>
-	  						<div class="form-group">							    
+	  						<div class="form-group pt-4">							    
 							    <input type="text" class="form-control" id="exampleInputuser"  placeholder="User name">
 							</div>
-							<div class="form-group">							    
+							<div class="form-group pt-4">							    
 							    <input type="password" class="form-control" id="exampleInputpass"  placeholder="Pa$$w0rd">							    
 							</div>
-							<span><a href="#">Forget password?</a></span>
+							<span><a href="#" data-toggle="modal" data-target="#exampleModal">Forget password?</a></span>
 							<div class="form-group ">							    
 							    <button class="btn button-login">Login</button>
 							</div>
@@ -59,8 +56,67 @@
 	  			</div>
 	  		</div>  		
 	  	</div>
-	</section>
+	</header>
+
   	<!--- /end content pages ------------>
+  	<section id="content-mod">
+  		<div class="row mt-4">
+  			<div class="col-12 col-md-4">
+  				<span class="fa fa-cog font-set mt-3 mb-3"></span>
+  				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+  			</div>
+  			<div class="col-12 col-md-4">
+  				<span class="fa fa-bank font-set mt-3 mb-3"></span>
+  				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+  			</div>
+  			<div class="col-12 col-md-4">
+  				<span class="fa fa-cog font-set mt-3 mb-3"></span>
+  				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+  			</div>
+  		</div>
+  		<div class="row mt-4">
+  			<div class="col-12 col-md-4">
+  				<span class="fa fa-facebook font-set mt-3 mb-3"></span>
+  				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+  			</div>
+  			<div class="col-12 col-md-4">
+  				<span class="fa fa-twitter font-set mt-3 mb-3"></span>
+  				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+  			</div>
+  			<div class="col-12 col-md-4">
+  				<span class="fa fa-user font-set mt-3 mb-3"></span>
+  				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+  			</div>
+  		</div>
+  	</section>
+  	<div class="container">
+  		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+			    	<div class="modal-header text-center">
+			        	<h5 class="modal-title" id="exampleModalLabel">Reset Password</h5>
+			        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			        		<span aria-hidden="true">&times;</span>
+			        	</button>
+		      		</div>
+		      		<div class="modal-body">
+		      			<div class="form-group pt-4">							    
+							<input type="text" class="form-control" id="exampleInputuser"  placeholder="User name">
+						</div>
+						<div class="form-group pt-4">							    
+							<input type="password" class="form-control" id="exampleInputuser"  placeholder="New password">
+						</div>
+						<div class="form-group pt-4">							    
+							<input type="password" class="form-control" id="exampleInputuser"  placeholder="Confirm password">
+						</div>		        		
+		      		</div>
+		      		<div class="modal-footer text-center">			        	
+			        	<button type="button" id="reset-pass">Reset</button>
+			      	</div>
+			    </div>
+			</div>
+		</div>
+	</div>
   	<script type="text/javascript" src="js/jquery.js"></script>
   	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script type="text/javascript" src="js/application.js"></script>
