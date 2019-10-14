@@ -113,6 +113,20 @@ a:hover {
 }
 
 /*-------------start about -------------------------------*/
+.container-flex {
+	margin-left: 10px;
+}
+.techlogo {
+	background-image: url("../img/techademy.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 240px;
+	height: 50px;
+	padding-left: 10px;
+	z-index: 0;
+	color: transparent;
+	font-weight: 30px;
+}
 
 /*-------------// end about -------------------------------*/
 
